@@ -12,7 +12,7 @@ contract Deposit{
     // declared with this syntax (without the function keyword and without arguments). 
     receive() external payable{
     }
-   
+      
  
     // declaring a fallback payable function that is called when msg.data is not empty or
     // when no other function matches
